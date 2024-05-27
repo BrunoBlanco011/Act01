@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <title>Gestión de contactos</title>
+</head>
+<body>
+    <input id="firstName" type="text" placeholder="firstName">
+    <input id="lastName" type="text" placeholder="lastName">
+    <input id="phoneNumber" type="text" placeholder="phoneNumber">
+    <button id="agenda-btn">Add</button>
+    <input id = "searchTxt" type="text" placeholder="Buscar">
+    <button id="searchBtn">Buscar</button>
+    <button id="imprimir">Mostrar todos los datos</button>
+    <button id="min">Valor Minimo</button>
+    <button id="max">Valor Maximo</button>
+    <div id="info"></div>
+    <script type="module" src="./src/controllers/script.js"></script>
+</body>
+</html>
