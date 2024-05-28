@@ -1,12 +1,12 @@
 class Contact {
-    firstName
-    lastName
-    phoneNumber
-    constructor(firstName, lastName, phoneNumber){
-        this.firstName = firstName
-        this.lastName = lastName
-        this.phoneNumber = phoneNumber
+    Name;
+    Genre;
+    Artist;
+    constructor(Name, Genre, Artist) {
+        this.Name = Name;
+        this.Genre = Genre;
+        this.Artist = Artist;
     }
 }
 
-export default Contact
+export default Contact;
